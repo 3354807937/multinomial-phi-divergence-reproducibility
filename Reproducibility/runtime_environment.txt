@@ -1,0 +1,7 @@
+Operating system: Windows 11
+Python: 3.12
+Numerical integration: 15-node Gauss--Hermite quadrature for the simulations;
+25 nodes for the four-cell BMI sensitivity fit.
+Inference simulation seed: 20260903
+Focused robustness simulation seed: 20260904
+Monte Carlo replications: 200 per listed configuration/scenario

@@ -1,0 +1,104 @@
+{
+  "audit_date": "2026-09-29",
+  "status": "PASS",
+  "scope": "Read-only numerical check of unchanged fits; no new optimization, hypothesis test, or Monte Carlo experiment.",
+  "cells": 4,
+  "individual_total": 74640,
+  "parameter_dimension": 5,
+  "cell_order_and_coding": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "all_five_objectives_match": true,
+  "all_variances_at_lower_optimization_limit": true,
+  "objectives": [
+    {
+      "lambda": 0.0,
+      "objective_recomputed": 0.1871707772433567,
+      "stored_objective": 0.1871707772433567,
+      "absolute_difference": 0.0
+    },
+    {
+      "lambda": 0.6666666666666666,
+      "objective_recomputed": 0.1920074746673103,
+      "stored_objective": 0.1920074746673102,
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "lambda": 1.0,
+      "objective_recomputed": 0.1990740378225884,
+      "stored_objective": 0.1990740378225884,
+      "absolute_difference": 0.0
+    },
+    {
+      "lambda": 1.5,
+      "objective_recomputed": 0.2158697917254948,
+      "stored_objective": 0.2158697917254948,
+      "absolute_difference": 0.0
+    },
+    {
+      "lambda": 2.0,
+      "objective_recomputed": 0.24111517286318052,
+      "stored_objective": 0.2411151728631805,
+      "absolute_difference": 2.7755575615628914e-17
+    }
+  ],
+  "hypothesis_test_results_computed": false,
+  "likelihood_and_dpd_comparisons": [
+    {
+      "method": "CR(0.666667)",
+      "reference": "weighted-marginal-ML",
+      "label_rmse": 0.284983846957583,
+      "reference_label_rmse": 0.3217665796136236,
+      "relative_reduction_percent": 11.431495682432026,
+      "clean_rmse": 0.313858293919495,
+      "reference_clean_rmse": 0.1645011161789283
+    },
+    {
+      "method": "CR(0.666667)",
+      "reference": "weighted-MDPD(0.2)",
+      "label_rmse": 0.284983846957583,
+      "reference_label_rmse": 0.3237468830934392,
+      "relative_reduction_percent": 11.973253847410314,
+      "clean_rmse": 0.313858293919495,
+      "reference_clean_rmse": 0.1668775066898837
+    },
+    {
+      "method": "CR(1)",
+      "reference": "weighted-marginal-ML",
+      "label_rmse": 0.281687595784957,
+      "reference_label_rmse": 0.3217665796136236,
+      "relative_reduction_percent": 12.455918783359454,
+      "clean_rmse": 0.3007612704546382,
+      "reference_clean_rmse": 0.1645011161789283
+    },
+    {
+      "method": "CR(1)",
+      "reference": "weighted-MDPD(0.2)",
+      "label_rmse": 0.281687595784957,
+      "reference_label_rmse": 0.3237468830934392,
+      "relative_reduction_percent": 12.991410730074303,
+      "clean_rmse": 0.3007612704546382,
+      "reference_clean_rmse": 0.1668775066898837
+    }
+  ],
+  "source_hashes": {
+    "bmi_aggregated.csv": "4867c4fb4d604646b4031b8de0c3d0d24b53ab3c2a94c16b4752915a0011669e",
+    "results/bmi_aggregate_estimates.csv": "7860ab1fdd2cacd6e6608f3f28fd1beb4547a904d99da098b62fc56691bc4224",
+    "baseline/results/robustness_summary.csv": "e7bea67dbb17621c1bccf526a7d79b31b901188a76b45882e1e69f1036d9635d"
+  }
+}

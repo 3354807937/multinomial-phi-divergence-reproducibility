@@ -1,0 +1,21 @@
+{
+  "audit_date": "2026-09-29",
+  "scope": "Reaggregation of existing formal Monte Carlo records and display-only table/figure updates; BMI fits retained from the previous revision; no new optimization or Monte Carlo experiment in this audit.",
+  "robustness_records": 6400,
+  "robustness_group_size": 200,
+  "inference_component_records": 14400,
+  "inference_dataset_method_fits": 3600,
+  "reaggregation": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_hashes": {
+    "baseline\\results\\robustness_replicates.csv": "a1d1052b522c3a91b534899ae773fc423fc71a30f61294c5a39aabef2cce2605",
+    "results\\finite_cluster_inference_replicates.csv": "c02d9f9bc8c8c38a137970c23b17c8f397f725a653076756639965459e8be57b",
+    "bmi_aggregated.csv": "4867c4fb4d604646b4031b8de0c3d0d24b53ab3c2a94c16b4752915a0011669e",
+    "results\\bmi_aggregate_estimates.csv": "7860ab1fdd2cacd6e6608f3f28fd1beb4547a904d99da098b62fc56691bc4224"
+  }
+}

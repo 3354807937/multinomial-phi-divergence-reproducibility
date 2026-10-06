@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "robustness",
+    "scenario": "clean",
+    "seed": 3616442681,
+    "method_records": 8,
+    "max_abs_difference": 7.377001029618135e-05,
+    "passed": false
+  },
+  {
+    "kind": "robustness",
+    "scenario": "individual-label",
+    "seed": 2003837550,
+    "method_records": 8,
+    "max_abs_difference": 1.3405388285418045,
+    "passed": false
+  },
+  {
+    "kind": "robustness",
+    "scenario": "cluster-shift",
+    "seed": 2263718164,
+    "method_records": 8,
+    "max_abs_difference": 0.007881212523018655,
+    "passed": false
+  },
+  {
+    "kind": "robustness",
+    "scenario": "t3-random-effect",
+    "seed": 143421597,
+    "method_records": 8,
+    "max_abs_difference": 3.849170342595798e-05,
+    "passed": true
+  },
+  {
+    "kind": "inference",
+    "design": "coverage",
+    "clusters": 60,
+    "cluster_size": 10,
+    "sigma2": 0.1,
+    "seed": 3182215699,
+    "component_records": 12,
+    "max_abs_difference": 0.00010259582868399342,
+    "passed": false
+  },
+  {
+    "kind": "inference",
+    "design": "null-slope",
+    "clusters": 60,
+    "cluster_size": 10,
+    "sigma2": 0.1,
+    "seed": 2734839605,
+    "component_records": 12,
+    "max_abs_difference": 1.3526820705100917e-05,
+    "passed": true
+  },
+  {
+    "kind": "inference",
+    "design": "coverage",
+    "clusters": 60,
+    "cluster_size": 20,
+    "sigma2": 0.5,
+    "seed": 2448735057,
+    "component_records": 12,
+    "max_abs_difference": 0.00830999247896419,
+    "passed": false
+  },
+  {
+    "kind": "inference",
+    "design": "null-slope",
+    "clusters": 60,
+    "cluster_size": 20,
+    "sigma2": 0.5,
+    "seed": 279042620,
+    "component_records": 12,
+    "max_abs_difference": 5.909855996175106e-05,
+    "passed": false
+  },
+  {
+    "kind": "inference",
+    "design": "coverage",
+    "clusters": 100,
+    "cluster_size": 10,
+    "sigma2": 1.0,
+    "seed": 3057234218,
+    "component_records": 12,
+    "max_abs_difference": 0.005945318901748875,
+    "passed": false
+  },
+  {
+    "kind": "inference",
+    "design": "null-slope",
+    "clusters": 100,
+    "cluster_size": 10,
+    "sigma2": 1.0,
+    "seed": 1476074809,
+    "component_records": 12,
+    "max_abs_difference": 1.287465199827087e-05,
+    "passed": true
+  }
+]
